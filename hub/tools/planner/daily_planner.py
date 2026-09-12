@@ -270,7 +270,7 @@ CLOSING NOTE
 [one paragraph]"""
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="llama-3.1-70b-versatile",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=1500,
         temperature=0.6,
